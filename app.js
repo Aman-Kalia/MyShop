@@ -18,12 +18,9 @@ const dotenv=require("dotenv");
 
 dotenv.config();
 
-connectdb=async()=>{
-    await mongoose.connect(process.env.MONGO_URL,)
+mongoose.connect(process.env.MONGO_URL,)
     .then(() => console.log('DB Connected'))
     .catch((err) => console.log(err));
-}
-connectdb();
 
 // seedDB();  
 
