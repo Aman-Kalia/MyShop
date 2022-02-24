@@ -1,0 +1,66 @@
+:root{
+    --main-color:#0096c7;
+}
+
+.navbar{
+    /* background-color: var(--main-color); */
+    background-color: #a4133c;
+}
+.navbar-brand{
+  color: rgb(13, 16, 19);
+}
+  .nav-link {
+    padding: 0.25rem 0;
+    font-weight: 700;
+    color: aliceblue;
+    margin-left: 1rem;
+    border-bottom: 0.25rem solid transparent;
+  }
+  .navbar-brand {
+    font-family: "Orbitron", sans-serif;
+    letter-spacing: 0.1em;
+    color: black;
+}
+.nav-link:hover {
+    color: rgba(255, 255, 255, 0.5);
+    border-bottom-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .nav-link.active {
+    color: white;
+    border-bottom-color: white;
+  }
+  
+
+main{
+    margin-top:4.5rem;
+}
+
+.card{
+    box-shadow: 1px 0.6px 2px #dee2e6;
+}
+
+.card img{
+    padding: 10px;
+    height: 225px;
+}
+
+
+#heading {
+    width: 98%;
+    background-color: #e9ecef;
+    padding: 16px;
+    margin: 10px auto;
+    border-radius: 10px;
+  }
+
+
+.navbar-brand {
+    font-family: "Orbitron", sans-serif;
+    letter-spacing: 0.1em;
+}
+
+.fa-shopping-basket{
+    font-size: 1.6rem;
+    margin-right: 8px;
+}

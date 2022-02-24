@@ -1,0 +1,39 @@
+<%- include("../partials/header") %> 
+<%- include("../partials/navbar") %> 
+
+
+<main class="container p-3" style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">
+
+    <div class="row">
+        <div class="col-md-6 mx-auto">
+            <%- include("../partials/flash") %> 
+            <h1 class="display-6">Login</h1>
+            <form action="/login" method="POST">
+                <div class="mb-3">
+                    <label for="username" class="form-label">Username</label>
+                    <input type="text" class="form-control" name="username" id="username" placeholder="Username">
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input class="form-control" type="password" name="password" id="password" placeholder="Password">
+                </div>
+               
+
+                <button type="submit" class="btn btn-danger btn-small">Login</button>
+                <br>
+                <br>
+                <p>New to MyShop? <br></p>
+                <a href="/register" class="btn btn-info btn-small">Create your MyShop account</a>
+            </form>
+
+        </div>
+    </div>
+
+
+
+
+</main>
+
+
+
+<%- include("../partials/footer") %> 
