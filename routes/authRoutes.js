@@ -47,7 +47,7 @@ router.post('/login',
     (req, res) => {
         
         const { username } = req.user;
-        req.flash('success', `Welcome Come Back ${username} Again!!`);
+        req.flash('success', `Welcome Back ${username} Again!!`);
         res.redirect('/products');
     });
 
